@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.Clear();
-int xa=30, ya=1,
-    xb=1, yb=20, 
-    xc=60, yc=20;
+int xa=40, ya=1,
+    xb=1, yb=30, 
+    xc=80, yc=30;
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
 
