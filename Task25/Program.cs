@@ -1,5 +1,5 @@
-﻿int x = new Random().Next(1,11);
-int y = new Random().Next(1,11);
+﻿int x = new Random().Next(-10,11);
+int y = new Random().Next(-10,11);
 
 double GetPower(int numberA, int numberB)
 {
@@ -7,3 +7,6 @@ double GetPower(int numberA, int numberB)
 }
 
 Console.WriteLine($"{x},{y} --> "+GetPower(x,y));
+
+
+
